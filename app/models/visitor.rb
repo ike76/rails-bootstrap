@@ -14,7 +14,7 @@ def update_spreadsheet
 		ss = connection.create_spreadsheet('Rails-Boostrap-Example')
 	end
 	ws = ss.worksheets[0]
-	last_row = 1 + ws.num_rows
+	last_row = ws.num_rows + 1
 	ws[last_row, 1] = Time.now
 	ws[last_row, 2] = self.favorite
 	ws[last_row, 3] = self.comment
