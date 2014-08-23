@@ -15,6 +15,7 @@ gem 'bootstrap-sass'
 gem 'google_drive'
 gem 'high_voltage'
 gem 'simple_form', '>= 3.1.0.rc1'
+gem 'figaro'
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller', :platforms=>[:mri_21]
